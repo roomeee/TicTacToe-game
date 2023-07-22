@@ -6,7 +6,7 @@ The game is played on a 3x3 grid represented by buttons. Each button represents 
 
 When a player clicks on a button, the next_turn function is called. It checks if the clicked button is empty and if there is no winner yet.
 
-If the conditions are met, the button's text is updated with the current player's symbol (X or O).
+If the  given conditoons are met, the button's text is updated with the current player's symbol (X or O).
 
 After updating the button, the check_winner function is called to determine if the current move resulted in a win or a tie.
 
